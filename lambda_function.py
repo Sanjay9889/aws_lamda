@@ -14,6 +14,5 @@ def lambda_handler(event, context):
     print("*" * 50)
     return {
         'statusCode': 200,
-        'body': json.dumps('Hello from Lambda!'),
-        'data': json.dumps(df)
+        'body': json.dumps('Hello from Lambda!')
     }
