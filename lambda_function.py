@@ -5,7 +5,7 @@ import pandas as pd
 def lambda_handler(event, context):
 
     data = {
-        "name": ["Sanjay", "Jitendra", "Rahul"]
+        "name": ["Sanjay", "Jitendra", "Rahul"],
         "age": [30, 28, 23]
     }
     df = pd.DataFrame(data)
