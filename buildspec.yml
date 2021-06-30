@@ -17,4 +17,4 @@ phases:
   post_build:
     commands:
       - echo "Updating lambda function"
-      - aws lambda update-fucntion-code --function-name code-build-pipeline --zip-file fileb://deployment_package.zip
+      - aws lambda update-function-code --function-name code-build-pipeline --zip-file fileb://deployment_package.zip
